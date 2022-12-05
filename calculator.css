@@ -1,0 +1,55 @@
+p, h1, h2, h3, h4, h5, h6, label {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 36);
+  margin: 0px;
+}
+
+.primary {
+  background-color: rgb(255, 247, 138);
+}
+
+.secondary {
+  background-color: rgb(255, 190, 111);
+  justify-content: flex-end;
+  padding-left: 18%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.wrapper {
+  border: 1px salmon solid;
+  padding: 25px;
+  width: 900px;
+  border-radius: 30px;
+  justify-content: center;
+}
+
+input,
+select {
+  width: 100px;
+  border: none;
+  border-bottom: 1px salmon solid;
+  background-color: rgb(255, 190, 111);
+}
+button {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  width: 105px;
+  height: 30px;
+  border: none;
+  border-radius: 6px;
+  background-color: salmon;
+  transition: background-color 0.15s;
+}
+
+button:hover {
+  background-color: rgb(255, 190, 111);
+  border: 1px salmon solid;
+  cursor: pointer;
+}
+
+hr {
+  width: 897px;
+}
